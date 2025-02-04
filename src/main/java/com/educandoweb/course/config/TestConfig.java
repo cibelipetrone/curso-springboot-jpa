@@ -15,7 +15,7 @@ import com.educandoweb.course.repositories.UserRepository;
 public class TestConfig implements CommandLineRunner{
 	
 	@Autowired
-	private UserRepository userRepository;
+	private UserRepository userRepository; //injeção de dependencia
 
 	@Override
 	public void run(String... args) throws Exception {
